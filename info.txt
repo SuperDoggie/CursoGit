@@ -1,6 +1,8 @@
 git ini // Usado para crear el repositorio
 git status -s // Listado de los archivos y directorios que estan en la carpeta del proyecto
-git add nombre.tipo // Se usa para hacer seguimiento de un archivo
+git add nombre.tipo (git add . // Todos los archivos) // Se usa para hacer seguimiento de un archivo
 git commit - "Descripción de la instantanea" // Utilizado para tomar la instantanea de archivo en seguimiento
 git log --online // Listado de las copias realizadas
 git reset --hard c0d1g0 // Hacer una restauracion del archivo
+git commit -am "Descripción" // Realiza el comando commit y add a la vez
+git commit --amend // Abrir el editor vim

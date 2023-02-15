@@ -6,3 +6,4 @@ git log --online // Listado de las copias realizadas
 git reset --hard c0d1g0 // Hacer una restauracion del archivo
 git commit -am "Descripción" // Realiza el comando commit y add a la vez
 git commit --amend // Abrir el editor vim
+git pull linkdelrepositorio // Para obtener los cambio realizados en el git hub
